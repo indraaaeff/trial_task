@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	background-image:url('../img/background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0px;
+	font-family: 'Roboto', sans-serif;
+}
+.notif{
+	z-index: 1;
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	background-color: #777879;
+	color: #efefef;
+}
+.box-notif{
+	padding: 15px 0 15px 0;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.browsers{
+	/*z-index: -1;*/
+	height: 100%;
+}
+.h100{
+	height: 100%;
+}
+.browser-side{
+	position: relative;
+	float: left;
+}
+.browser-center{
+	position: relative;
+	float:left;
+}
+.chrome{
+	background-color:#EBBA4AC4;
+}
+.firefox{
+	background-color:#E8A03EC4;
+}
+.edge{
+	background-color:#5AC6FAC4;
+}
+.safari{
+	background-color:#459CE3C4;
+}
+.opera{
+	background-color:#E3634DC4;
+}
+#bw-logo {
+	fill: #efefef;
+}
+.content{
+	position: absolute;
+	bottom:5%;
+	color: #efefef;
+	text-align: center;
+}
+.ct-right{
+	right: 5%;
+}
+.ct-left{
+	left: 5%;
+}
+.ct-center{
+	left: 0;
+	right: 0;
+}
+.btn-dl{
+	border: 1px solid #efefef;
+	padding: 10px;
+	color: inherit;
+	text-decoration: none;
+	background-color: #52565980;
+}
+.btn-notif{
+	border: 1px solid #efefef;
+	padding: 10px;
+	color: inherit;
+	text-decoration: none;
+	background-color: #52565980;
+}
+.desc{
+	font-size: 15px !important;
+}
+
+@media only screen and (max-width: 576px) {
+	.notif{
+		position: unset !important;
+	}
+	.content{
+		position: unset !important;
+	    padding: 31px 0;
+	}
+}
